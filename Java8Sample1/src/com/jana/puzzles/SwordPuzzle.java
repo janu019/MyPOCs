@@ -17,7 +17,7 @@ import java.util.List;
 
 // TESTED in Java 8
 // TODO we need to convert this to Java8 and see the performance diff
-public class SwortPuzzle {
+public class SwordPuzzle {
 
   public static void main(String[] args) {
     startAlgorithm(100);

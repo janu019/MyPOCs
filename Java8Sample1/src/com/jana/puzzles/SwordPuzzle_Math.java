@@ -1,6 +1,6 @@
 package com.jana.puzzles;
 
-public class SwortPuzzle_Math {
+public class SwordPuzzle_Math {
 
   public static void main(String[] args) {
     int peopleCount = 100;
