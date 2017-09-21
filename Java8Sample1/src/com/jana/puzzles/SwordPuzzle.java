@@ -63,23 +63,21 @@ public class SwordPuzzle {
 
     List<Integer> nextRoundpeople = new ArrayList<>();
 
-    for(Iterator iterator = people.iterator(); iterator.hasNext();) {
+    for(Iterator<Integer> iterator = people.iterator(); iterator.hasNext();) {
       if(killFirstPerson) {
         if(iterator.hasNext()) {
           iterator.next();
         }
 
         if(iterator.hasNext()) {
-          Integer i = (Integer) iterator.next();
-          nextRoundpeople.add(i);
+          nextRoundpeople.add(iterator.next());
         }
         else {
           killFirstPerson = false;
         }
       }
       else {
-        Integer i = (Integer) iterator.next();
-        nextRoundpeople.add(i);
+        nextRoundpeople.add(iterator.next());
         if(iterator.hasNext()) {
           iterator.next();
         }
