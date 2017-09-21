@@ -8,8 +8,8 @@ import java.util.List;
  * Problem statement:
  *
  * 100 people standing in a circle in an order 1 to 100. No.1 has a sword. He kills next person (i.e. no. 2) and gives
- * sword to next to next (i.e no.3). This will go on (Guy kills next one and hand over sword to the next person who is alive), this will continue until only 1 survives.
- * Finding the person number who survives at the end is the problem.
+ * sword to next to next (i.e no.3). This will go on (Guy kills next one and hand over sword to the next person who is
+ * alive), this will continue until only 1 survives. Finding the person number who survives at the end is the problem.
  *
  *
  * @author janareddy
