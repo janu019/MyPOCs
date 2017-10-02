@@ -15,13 +15,13 @@ public class CustomerService {
   private static int idSequence = 1;
 
   public CustomerService() {
-    customers.add(new Customer(idSequence++, "James", "Bryner", "Overstock main branch, Midvale", true));
-    customers.add(new Customer(idSequence++, "James", "Watts", "Overstock main branch, Midvale", true));
-    customers.add(new Customer(idSequence++, "David", "Burdick", "Overstock main branch, Midvale", false));
-    customers.add(new Customer(idSequence++, "Matt", "Ritter", "Overstock main branch, Midvale", false));
-    customers.add(new Customer(idSequence++, "Jeff", "Meier", "Overstock main branch, Midvale", true));
-    customers.add(new Customer(idSequence++, "Art", "Fed", "Overstock main branch, Midvale", true));
-    customers.add(new Customer(idSequence++, "Jana", "Madam", "Overstock main branch, Midvale", true));
+    customers.add(new Customer(idSequence++, "James", "Bond", "Overstock main branch, Midvale", true));
+    customers.add(new Customer(idSequence++, "James", "Matrin", "Overstock main branch, Midvale", true));
+    customers.add(new Customer(idSequence++, "David", "King", "Overstock main branch, Midvale", false));
+    customers.add(new Customer(idSequence++, "Steve", "Frank", "Overstock main branch, Midvale", false));
+    customers.add(new Customer(idSequence++, "Ram", "Rana", "Overstock main branch, Midvale", true));
+    customers.add(new Customer(idSequence++, "Junior", "Jane", "Overstock main branch, Midvale", true));
+    customers.add(new Customer(idSequence++, "Jana", "reddy", "Overstock main branch, Midvale", true));
   }
 
   public List<Customer> getCustomers() {
